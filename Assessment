@@ -1,13 +1,16 @@
 
-Question1:-
+Question1:- Make this work:duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 
+Answer:
 	function duplicate (arr) {
 		const temp = arr;
 		return [...temp, ...arr]
 	}
 	
-Question2:-
+Question2:- Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
 
+
+Answer:
 	for ( var i = 1; i <= 100; i++ )
 	{
 	  if ( i%3 === 0 && i%5 === 0 )
@@ -28,7 +31,13 @@ Question2:-
 	  }
 	}
 	
-Question3:-
+Question3:-What will be returned by each of these?
+
+console.log("hello" || "world")
+
+console.log("foo" && "bar")
+
+Answer:
 	
 	console.log("hello" || "world")
 	Answer: hello
@@ -37,7 +46,9 @@ Question3:-
 	Answer: bar
 
 
-Question4:-
+Question4:- Write an immediately invoked function expression (IIFE)
+
+Answer:
 
 	(function () {
 		//write your js code here
